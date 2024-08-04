@@ -1,2 +1,2 @@
 # rust-gym
-My noob experiments with Learning Rust language 
+My noob experiments with the Rust language.
