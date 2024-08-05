@@ -9,4 +9,9 @@ fn main() {
         println!("The value of x now is {}", x);
     }
     println!("The value of x now is {}", x);
+
+    let spaces = "      ";
+    let spaces = spaces.len();
+
+    println!("the value of spaces is {spaces}");
 }
