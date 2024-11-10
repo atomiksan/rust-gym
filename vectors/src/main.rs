@@ -18,4 +18,10 @@ fn main() {
 
     let v: Vec<i32> = (0..5).collect();
     println!("{:?}", v);
+
+    let mut v2: Vec<i32> = (2..=10).step_by(2).collect();
+    println!("{:?}", v2);
+    v2.pop();
+    v2.push(12);
+    println!("{:?}", v2);
 }
