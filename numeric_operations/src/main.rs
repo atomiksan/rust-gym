@@ -20,4 +20,10 @@ fn main() {
     // remainder
     let remainder = 43 % 5;
     println!("remainder is: {remainder}");
+
+    //more modulo operation
+    let val1 = 5;
+    let val2 = 2;
+    let ans = val1 % val2;
+    println!("modulo is: {}", ans);
 }
